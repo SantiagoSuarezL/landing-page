@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.8rem;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.cta-a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #fdd72d;
+    border-radius: .2rem;
+    padding: .25rem;
+}
+
+.header-landing{
+    display: flex;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    padding: 0.25rem;
+}
+
+.logo-header{
+    max-width: 50px;
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.hero-section{
+    padding: 4rem;
+    height: 100vh;
+    background: url(https://fotografias.larazon.es/clipping/cmsimages01/2020/05/19/417F434E-642D-40AE-ABED-E39F65254BF5/98.jpg?crop=1920,1080,x0,y100&width=1900&height=1069&optimize=low&format=webply);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-hero-section{
+    max-width: 600px;
+    color: white;
+    padding: 5%;
+    height: auto;
+}
+
+.wrap-txt-section p{
+    padding-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.wrap-title-section h2{
+    padding-left: 5rem;
+}
+
+.wrap-title-section p{
+    padding-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.text-1,.text-2,.text-3{
+    padding-top: .1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.wrap-two-columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: auto; 
+    margin: auto;
+}
+
+.wrap-img_two-columns {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    height: 80vh;
+}
+
+.wrap-img_two-columns img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.wrap-text-columns h3 {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+}
+
+.wrap-text-columns p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem; 
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    position: flex;
+    bottom: 0;
+    width: 100%;
+    padding: 20px; 
+}
+
+hr{
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid #fdd72d;
+    margin-top: 1rem;
+    width: 200px
+}
+
+.title-footer {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card .content {
+    padding: 15px;
+    text-align: center;
+}
+
+.content p {
+    padding-top: 1rem;
+}
+
+.card .content a {
+    display: inline-block;
+    color: #fdd72d;
+    border: 1px solid #fdd72d;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    height: 30px;
+}
+
+.card .content a:hover {
+    background: #fdd72d;
+    color: white;
+}
+
+h5{
+    display: block;
+    font-size: 1.5rem;
+    padding-left: auto ;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+}
+
+.text-5 p{
+    font-size: 1.1rem;
+    padding-left: 5rem;
+    max-width: 1400px;
+    margin-bottom: 2rem;
+}
+
+.text-6 p{
+    font-size: 1.1rem;
+    padding-left: 5rem;
+    max-width: 1400px;
+    margin-bottom: 6rem;
+}
